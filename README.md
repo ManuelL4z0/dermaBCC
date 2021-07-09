@@ -5,20 +5,18 @@ A proyect that aims to develop a software that's useful in BCC images clasificat
 Files:
 -entrenamientos_3_entradaTriple_RA: a file for simple training 
 -genera_arquitectura: a function to generate various architectures to be called from a loop
--bucle_entrenamientos: fichero con el funcionamiento general del bucle de entrenamientos
+-bucle_entrenamientos: functions to generate a training loop to search and optimize the architecture 
+-curva_ROC_funcion: ROC and AUC functions
+-recalcula_resultados_bucle: to recalculate with variable thresholds the loop results
+-representacion_final_bucle: representation and filtering of best results within the loop training
+-genera_resultados_finales: final classification BCC/NOBCC
 
--curva_ROC_funcion: funciones de las curvas ROC y otras métricas
--recalcula_resultados_bucle: se recalculan los resultados del bucle con umbrales variables
--representacion_final_bucle: búsqueda de mejores resultados del bucle de la arquitectura
--genera_resultados_finales: clasificación final BCC/NOBCC
+-confusion_matrix_custom: functions related to confusion matrix matters
+-genera_colores_y_centros: color clustering
+-convierte_imagenes: color space image conversion
+-glcm_2: functions for glcm performing
+-funciones_procesado: basic and general purpouse functions
+-aumento de datos: data augmentation functions
 
--confusion_matrix_custom: Funciones relacionadas con la matriz de confusión
--genera_colores_y_centros: Clustering de colores
--convierte_imagenes: Conversión de imágenes a espacios de color
--glcm_2: uso de las matrices de coocurrencia
--funciones_procesado: funciones básucas para el clustering y otros
--aumento de datos: para realizar data augmentation
-
--agregaLoteImagenesalOrden:
--ordenaImagenes:  este script y el anterior son para la gestión de la base de datos
-
+-agregaLoteImagenesalOrden: adds and indexes a batch of images to the database
+-ordenaImagenes:  a similar script to the previous, used to database management
