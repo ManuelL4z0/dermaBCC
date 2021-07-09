@@ -3,9 +3,8 @@ A proyect that aims to develop a software that's useful in BCC images clasificat
 
 
 Files:
--entrenamientos_3_entradaTriple_RA: fichero para entrenamientos sencillos y pruebas de hiperparámetros
-
--genera_arquitectura: función para generar arquitecturas variadas desde el bucle de entrenamientos
+-entrenamientos_3_entradaTriple_RA: a file for simple training 
+-genera_arquitectura: a function to generate various architectures to be called from a loop
 -bucle_entrenamientos: fichero con el funcionamiento general del bucle de entrenamientos
 
 -curva_ROC_funcion: funciones de las curvas ROC y otras métricas
